@@ -1,6 +1,6 @@
 ﻿class Program{
 
-  public void Main(string[] args){
+  public static void Main(string[] args){
     
     Book book1 = new Book();
     book1.Title = "The book of Life";
@@ -9,16 +9,24 @@
 
     libraryItems.Add(
       new Book{
-      Title = "",
+      Title = "The book of Eli",
       Publishing = ""
     });
 
     AudioBook audioBook= new AudioBook();
+    audioBook.Title = "MangKepweng";
     libraryItems.Add(audioBook);
 
     Journal journal = new Journal();
+    journal.Title = "The gayuma x asin";
     libraryItems.Add(journal);
 
+    var filteredItem = libraryItems.FindAll(x => x.Title!.Contains("The"));
+
+    foreach (var item in filteredItem)
+    {
+      
+    }
   }
 }
 
@@ -32,9 +40,7 @@ interface IPodcast {
   public int Duration { get; set; }
 }
 
-interface IAudioBook :  ILibraryItem, IPodcast{
-
-}
+interface IAudioBook :  ILibraryItem, IPodcast{}
 
 class JournalD : ILibraryItem {
   public int VolNum { get; set;}

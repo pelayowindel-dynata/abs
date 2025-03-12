@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Windel.Pelayo\\Documents\\demo-class\\abs\\abs.csproj": {}
+    "c:\\Users\\Windel.Pelayo\\Documents\\demo-class\\abs\\abs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Windel.Pelayo\\Documents\\demo-class\\abs\\abs.csproj": {
+    "c:\\Users\\Windel.Pelayo\\Documents\\demo-class\\abs\\abs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Windel.Pelayo\\Documents\\demo-class\\abs\\abs.csproj",
+        "projectUniqueName": "c:\\Users\\Windel.Pelayo\\Documents\\demo-class\\abs\\abs.csproj",
         "projectName": "abs",
-        "projectPath": "C:\\Users\\Windel.Pelayo\\Documents\\demo-class\\abs\\abs.csproj",
+        "projectPath": "c:\\Users\\Windel.Pelayo\\Documents\\demo-class\\abs\\abs.csproj",
         "packagesPath": "C:\\Users\\Windel.Pelayo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Windel.Pelayo\\Documents\\demo-class\\abs\\obj\\",
+        "outputPath": "c:\\Users\\Windel.Pelayo\\Documents\\demo-class\\abs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Windel.Pelayo\\AppData\\Roaming\\NuGet\\NuGet.Config",
